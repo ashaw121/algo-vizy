@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import './App.css';
+import Sections from './sections/pages/Sections';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import Sorting from './sorting/pages/Sorting';
+import './App.css';
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
       <MainNavigation />
       <main>
         <Routes>
-          <Route path='/' element={<h1>Home</h1>} />
-
+          <Route path='/' element={<Sections />} />
           <Route path='/sorting/' exact element={<Sorting />} />
+          <Route path='*' element={<Sections />} />
         </Routes>
       </main>
     </React.Fragment>
