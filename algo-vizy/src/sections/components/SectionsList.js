@@ -11,7 +11,7 @@ function SectionsList(props) {
   return (
     <ul className='sections-list'>
       {props.items.map(section => (
-        <ListItem path={section.path} name={section.name} />
+        <ListItem key={section.path} path={section.path} name={section.name} />
       ))}
     </ul>
   );

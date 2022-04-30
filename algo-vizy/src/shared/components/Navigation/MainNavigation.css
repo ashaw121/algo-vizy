@@ -26,6 +26,11 @@
   color: rgb(0, 49, 82);
 }
 
+.main-navigation__header-nav {
+  display: block;
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   .main-navigation__menu-btn {
     display: none;
