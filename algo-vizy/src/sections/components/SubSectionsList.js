@@ -1,10 +1,23 @@
 import React from 'react';
+import { CSSTransition } from 'react-transition-group';
+
+import SubListItem from './SubListItem';
 
 function SubSectionsList(props) {
   return (
-    <div>
-      <h4>Hello</h4>
-    </div>
+    <CSSTransition
+      in={props.show}
+      timeout={200}
+      classNames='section-expand'
+      mountOnEnter
+      unmountOnExit
+    >
+      <ul className='sub-sections-list'>
+        {props.items.map(item => (
+          <SubListItem key={item.path} path={item.path} name={item.name} />
+        ))}
+      </ul>
+    </CSSTransition>
   );
 }
 
