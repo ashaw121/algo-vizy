@@ -11,6 +11,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
   padding: 0 1rem 0 1rem;
   z-index: 5;
+  box-sizing: border-box;
 }
 
 main {
@@ -20,5 +21,11 @@ main {
 @media (min-width: 768px) {
   .main-header {
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    justify-content: center;
   }
 }

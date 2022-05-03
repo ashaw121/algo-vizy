@@ -2,3 +2,9 @@
   list-style: none;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
