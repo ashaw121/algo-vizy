@@ -1,0 +1,19 @@
+Completed:
+-List of sections that expand when clicked on
+-Subsections link to new pages
+-Header layout
+-Landing/main page
+-Basic styling
+
+
+
+To-Do:
+-Sidedrawer for navbar in mobile
+-About page
+-Subsection pages
+-Add more sections/subsections
+-All backend
+-All content (about and subsections)
+-Auth(?)
+-Favorite sections when signed in(?)
+-Finalize styling
