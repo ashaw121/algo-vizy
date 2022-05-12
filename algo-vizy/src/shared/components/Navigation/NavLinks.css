@@ -10,6 +10,16 @@
   align-items: center;
 }
 
+.nav-links li {
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+  }
+}
+
 /* @media (max-width: 768px) {
   .nav-links {
     display: none;

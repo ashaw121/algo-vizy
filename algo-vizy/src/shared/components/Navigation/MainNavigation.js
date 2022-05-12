@@ -35,9 +35,11 @@ function MainNavigation(props) {
         <h1 className='main-navigation__title'>
           <Link to='/'>Algo-Vizy</Link>
         </h1>
-        <nav className='main-navigation__header-nav'>
-          <NavLinks />
-        </nav>
+        {
+          <nav className='main-navigation__header-nav'>
+            <NavLinks />
+          </nav>
+        }
       </MainHeader>
     </React.Fragment>
   );

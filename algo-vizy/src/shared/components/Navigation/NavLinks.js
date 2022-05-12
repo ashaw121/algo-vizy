@@ -9,6 +9,15 @@ function NavLinks(props) {
       <li>
         <NavLink to='/about'>About</NavLink>
       </li>
+      <li>
+        <a
+          href='https://github.com/ashaw121/algo-vizy'
+          target='_blank'
+          rel='noreferrer'
+        >
+          GitHub
+        </a>
+      </li>
     </ul>
   );
 }
