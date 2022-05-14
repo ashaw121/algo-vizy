@@ -10,12 +10,14 @@ function ListItem(props) {
   const closeSectionHandler = () => setSectionIsOpen(false);
 
   return (
-    <li
-      className='list-item'
-      onClick={sectionIsOpen ? closeSectionHandler : openSectionHandler}
-    >
+    <li className='list-item'>
       <Card className='list-item__content' path={props.path}>
-        <h3 className='list-item__title'>{props.name}</h3>
+        <h3
+          className='list-item__title'
+          onClick={sectionIsOpen ? closeSectionHandler : openSectionHandler}
+        >
+          {props.name}
+        </h3>
 
         <SubSectionsList items={props.items} show={sectionIsOpen} />
       </Card>

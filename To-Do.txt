@@ -4,14 +4,14 @@ Completed:
 -Header layout
 -Landing/main page
 -Basic styling
--Sidedrawer and backdrop added, open/close
-
+-Sidedrawer complete
+-About page
+-Subsection pages
 
 
 To-Do:
--Sidedrawer for navbar in mobile - finish
--About page
--Subsection pages
+-Style subsection buttons
+-Finish styling subsection modals
 -Add more sections/subsections
 -All backend
 -All content (about and subsections)
